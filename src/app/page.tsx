@@ -1,12 +1,13 @@
-import Approach from "@/components/approach";
+// import Approach from "@/components/approach";
 import ContactCTA from "@/components/contactCTA";
-import Experience from "@/components/experiance";
+// import Experience from "@/components/experiance";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
-import Logos from "@/components/logos";
+// import Logos from "@/components/logos";
 import Navigation from "@/components/navigation";
 import Portfolio from "@/components/portfolio";
-import Testimonials from "@/components/testionals";
+import TechStack from "@/components/techstack";
+// import Testimonials from "@/components/testionals";
 
 
 export default function Home() {
@@ -15,11 +16,12 @@ export default function Home() {
       <main className="flex overflow-hidden flex-col items-center pt-8 w-full bg-slate-950 max-md:max-w-full">
         <Navigation />
         <Hero />
+        <TechStack />
         <Portfolio />
-        <Testimonials />
-        <Logos />
-        <Experience />
-        <Approach />
+        {/* <Testimonials /> */}
+        {/* <Logos /> */}
+        {/* <Experience /> */}
+        {/* <Approach /> */}
         <ContactCTA />
         <Footer />
       </main>

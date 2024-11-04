@@ -34,7 +34,7 @@ const projects = [
 
 const Portfolio: React.FC = () => {
   return (
-    <section className="mt-24 w-full max-w-[1242px] max-md:mt-10 max-md:max-w-full">
+    <section id="projects" className="mt-24 w-full max-w-[1242px] max-md:mt-10 max-md:max-w-full">
       <h2 className="text-5xl font-bold tracking-tighter leading-none text-center text-white max-md:max-w-full max-md:text-4xl">
         A small selection of{" "}
         <span className="text-violet-300">recent projects</span>
