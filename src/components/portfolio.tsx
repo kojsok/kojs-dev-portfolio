@@ -27,28 +27,28 @@ const projects = [
     title: "3D Solar System Planets to Explore",
     description: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     image: "/Portfolio_earth.png",
-    technologies: "/Portfolio_stack_earth.png",
+    technologies: "/Portfolio_stack_3D.png",
     link: "#"
   },
   {
     title: "Yoom - Video Conferencing App",
     description: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     image: "/Portfolio_Yoom.png",
-    technologies: "/Portfolio_stack_earth.png",
+    technologies: "/Portfolio_stack_3D.png",
     link: "#"
   },
   {
     title: "AI Image SaaS - Canva Application",
     description: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     image: "/Portfolio_Canva.png",
-    technologies: "/Portfolio_stack_earth.png",
+    technologies: "/Portfolio_stack_3D.png",
     link: "#"
   },
   {
     title: "Animated Apple Iphone 3D Website",
     description: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
     image: "/Portfolio_3D.png",
-    technologies: "/Portfolio_stack_earth.png",
+    technologies: "/Portfolio_stack_3D.png",
     link: "#"
   }
 ];
