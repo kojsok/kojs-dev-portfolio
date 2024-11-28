@@ -1,8 +1,21 @@
+// export default function Article1() {
+//     return (
+//       <div className="bg-slate-950 text-white min-h-screen py-12">
+//         <div className="max-w-screen-xl mx-auto">
+//           <h1 className="text-4xl font-bold mb-8 text-center">Static Article 1</h1>
+//           <p className="text-gray-300">
+//             This is the content of the static article 1. Add your own text here!
+//           </p>
+//         </div>
+//       </div>
+//     );
+//   }
+
 import React from "react";
 
-export const Article = () => {
+export default function Article1()  {
   return (
-    <div className="bg-slate-950 text-white p-8 rounded-lg shadow-md ">
+    <div className="bg-slate-950 text-white p-8 rounded-lg shadow-md  mt-12 w-full mx-auto max-w-screen-xl">
       <h1 className="text-3xl font-bold mb-6">Деплой проекта Next.js на Ubuntu сервер</h1>
       <article className="space-y-6 max-w-screen-xl mx-auto">
         <Section
@@ -194,5 +207,5 @@ type SectionProps = {
     );
   };
   
-  export default Section;
+//   export default Section;
   
